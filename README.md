@@ -118,14 +118,22 @@ De webtoegankelijkheid-test vereist een combinatie van semi-geautomatiseerde en 
 <img src="/content/dam/logo/oba-logo.png" alt="Openbare Bibliotheek Amsterdam">
 ```
 
-Afbeeldingen zijn een veel voorkomend onderdeel van de meeste websites. Help mee om ervoor te zorgen dat iedereen ervan kan genieten.
 ##### Headings
+* Er is geen h1.
+* De h2 elementen hebben niet de zelfde ```font-size```. (had handig geweest als de grootste text een h1 zou zijn)
+* De headings beschrijven goed de content van de pagina.
+* Er is verder een logische opbouw omdat de geneste headings een waarde hebben van h3.
 
 ##### Lists
+* De nav, filter-nav, agenda & footer-nav bevatten allemaal een unordered list.
+* De pagina-nav bestaat uit een ordered list.
+* Alle lists zijn correct genest.
 
 ##### Controls
+* Alle links & knoppen zijn toegankelijk voor screenreaders en keyboard navigatie.
 
 ##### Tables
+n.v.t.
 
 Keyboard
 
@@ -147,9 +155,6 @@ Controls
 
     Social media links in de footer hebben geen focus state en geen alt waardoor het niet accessible is voor screenreaders. Buttons gebruiken wel een button element maar hebben geen toegankelijke beschrijving voor screenreaders en er is geen skip link aanwezig.
 
-Tables
-
-    n.v.t.
 
 
 {Schrijf per check wat er uit de test is gekomen}
