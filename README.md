@@ -84,19 +84,41 @@ De webtoegankelijkheid-test vereist een combinatie van semi-geautomatiseerde en 
 {Beschijf de resultaten van de hele test op basis van de A11Y Project-Checklist}
 
 ##### Content
-
-  * Het taalgebruik is duidelijk en er worden geen stijlfiguren of metaforen gebruikt. Sommige buttons zijn daarentegen wat minder duidelijk; ‘Learn more’ geeft weinig context. De pagina bevat weinig tekst maar ze worden wel links uitgelijnd en niet in het midden. Mocht de meertaligheid uitbreiden, zou er voor de Arabische uitwerking een nieuw design moeten worden gemaakt, hierbij moeten de teksten namelijk rechts uitgelijnd zijn.
-  * Make sure that button, a, and label element content is unique and descriptive.
-  * Use left-aligned text for left-to-right (LTR) languages, and right-aligned text for right-to-left (RTL) languages.
+  * Het taalgebruik is duidelijk en is eenvoudig te lezen.
+  * De inhoud van  de button, a en label elementen zijn uniek en bevatten beschrijvende text. 
+  * Op de website is alleen geschikt voor left-to-right talen. Op de website kun je kiezen tussen Nederlands en Engels.
 
 
 ##### Global code
-
-
+![preview oba op digital screen](/assets/html-checker.png)
+  * Een document mag niet zowel een meta-element met een http-equiv-attribuut waarvan de waarde content-type is, als een meta-element met een charset-attribuut bevatten.
+``` 
+<meta charset="utf-8">
+```
+ 
+  * Een meta-element met een http-equiv-attribuut waarvan de waarde X-UA-Compatible is, moet een content-attribuut hebben met de waarde IE=edge.
+``` 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+```
+ 
+  * Attribuuttype is op dit moment niet toegestaan bij element selectie.
+ ```
+ <select id="pagination-selector" type="select" name="pageNumber">
+ ```
+ 
 ##### Keyboard
+  * De interface en inhoud kan worden genavigeerd doormiddel van het toetsenbord.
+  * Er is een zichtbare focusstijl voor de geselecteerde elementen via toetsenbordinvoer.
+  * De focusvolgorde van het toetsenbord komt overeen met de visuele lay-out.
 
 ##### Images
+  * Zorg ervoor dat alle img-elementen een alt-attribuut hebben.
+  * Bij bijna alle img-elementen van agenda pagina ontbreken de alt-attributen. Alleen het logo van OBA bevat een alt-attribuut.
+   ```
+<img src="/content/dam/logo/oba-logo.png" alt="Openbare Bibliotheek Amsterdam">
+```
 
+Afbeeldingen zijn een veel voorkomend onderdeel van de meeste websites. Help mee om ervoor te zorgen dat iedereen ervan kan genieten.
 ##### Headings
 
 ##### Lists
@@ -105,21 +127,30 @@ De webtoegankelijkheid-test vereist een combinatie van semi-geautomatiseerde en 
 
 ##### Tables
 
-##### Forms
+Keyboard
 
-##### Media
+    Bij de interactieve elementen is er een focus state die past binnen de huisstijl. Helaas zijn niet alle dropdown menu’s navigeerbaar met toetsenbord en zijn er onzichtbare knoppen aanwezig.
 
-##### Video
+Images
 
-##### Audio
+    Image elementen hebben geen alt. Bij afbeeldingen met tekst (zoals logo’s) moet de alt beschrijving ook de tekst die in de afbeelding staat bevatten.
 
-##### Appearance
+Headings
 
-##### Animation
+    Headings worden goed gebruikt om content de introduceren. Er is maar 1 h1 element gebruikt, de headings staan in een logische volgorde en er worden geen heading niveaus overgeslagen
 
-##### Color contrast
+Lists
 
-##### Mobile and touch
+    n.v.t.
+
+Controls
+
+    Social media links in de footer hebben geen focus state en geen alt waardoor het niet accessible is voor screenreaders. Buttons gebruiken wel een button element maar hebben geen toegankelijke beschrijving voor screenreaders en er is geen skip link aanwezig.
+
+Tables
+
+    n.v.t.
+
 
 {Schrijf per check wat er uit de test is gekomen}
 
