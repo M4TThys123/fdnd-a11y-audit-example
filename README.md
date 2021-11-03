@@ -1,9 +1,9 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Rapportage webtoegankelijkheid-test voor {naam van de website}
+# Rapportage webtoegankelijkheid-test voor Openbare Bibliotheek Amsterdam
 *Dit document is een template voor een webtoegankelijkheid-test volgens de Web Content Accessibility Guidelines (WCAG). Een consistente rapportage helpt bij het uitvoeren van een evaluatie en zorgt er voor dat verschilelnde tests kunnen worden vergeleken.*
 
-Datum webtoegankelijkheid-test: {datum}
+Datum webtoegankelijkheid-test: 3-11-2021
 
 Webtoegankelijkheid-test uitgevoerd door: {naamt}
 
@@ -85,7 +85,13 @@ De webtoegankelijkheid-test vereist een combinatie van semi-geautomatiseerde en 
 
 ##### Content
 
+  * Het taalgebruik is duidelijk en er worden geen stijlfiguren of metaforen gebruikt. Sommige buttons zijn daarentegen wat minder duidelijk; ‘Learn more’ geeft weinig context. De pagina bevat weinig tekst maar ze worden wel links uitgelijnd en niet in het midden. Mocht de meertaligheid uitbreiden, zou er voor de Arabische uitwerking een nieuw design moeten worden gemaakt, hierbij moeten de teksten namelijk rechts uitgelijnd zijn.
+  * Make sure that button, a, and label element content is unique and descriptive.
+  * Use left-aligned text for left-to-right (LTR) languages, and right-aligned text for right-to-left (RTL) languages.
+
+
 ##### Global code
+
 
 ##### Keyboard
 
