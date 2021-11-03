@@ -135,27 +135,6 @@ De webtoegankelijkheid-test vereist een combinatie van semi-geautomatiseerde en 
 ##### Tables
 n.v.t.
 
-Keyboard
-
-    Bij de interactieve elementen is er een focus state die past binnen de huisstijl. Helaas zijn niet alle dropdown menu’s navigeerbaar met toetsenbord en zijn er onzichtbare knoppen aanwezig.
-
-Images
-
-    Image elementen hebben geen alt. Bij afbeeldingen met tekst (zoals logo’s) moet de alt beschrijving ook de tekst die in de afbeelding staat bevatten.
-
-Headings
-
-    Headings worden goed gebruikt om content de introduceren. Er is maar 1 h1 element gebruikt, de headings staan in een logische volgorde en er worden geen heading niveaus overgeslagen
-
-Lists
-
-    n.v.t.
-
-Controls
-
-    Social media links in de footer hebben geen focus state en geen alt waardoor het niet accessible is voor screenreaders. Buttons gebruiken wel een button element maar hebben geen toegankelijke beschrijving voor screenreaders en er is geen skip link aanwezig.
-
-
 
 {Schrijf per check wat er uit de test is gekomen}
 
