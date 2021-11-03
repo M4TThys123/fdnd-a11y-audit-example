@@ -1,11 +1,12 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+# Rapportage webtoegankelijkheid-test voor openbare bibliotheek van Amsterdam
+[live pagina 🌐](https://www.oba.nl/agenda.html)
+![preview oba op digital screen](/assets/unknown.png)
 
-# Rapportage webtoegankelijkheid-test voor Openbare Bibliotheek Amsterdam
-*Dit document is een template voor een webtoegankelijkheid-test volgens de Web Content Accessibility Guidelines (WCAG). Een consistente rapportage helpt bij het uitvoeren van een evaluatie en zorgt er voor dat verschilelnde tests kunnen worden vergeleken.*
+*Dit document is een webtoegankelijkheid-test volgens de Web Content Accessibility Guidelines (WCAG). Een consistente rapportage helpt bij het uitvoeren van een evaluatie en zorgt er voor dat verschilelnde tests kunnen worden vergeleken.*
 
-Datum webtoegankelijkheid-test: 3-11-2021
+Datum webtoegankelijkheid-test: 03/11/2021
 
-Webtoegankelijkheid-test uitgevoerd door: {naamt}
+Webtoegankelijkheid-test uitgevoerd door: Beau & Matthijs
 
 ## Inhoudsopgave
 
@@ -21,33 +22,28 @@ Webtoegankelijkheid-test uitgevoerd door: {naamt}
 
 ## Samenvatting
 
-Dit rapport beschrijft in hoeverre de website {naam van de website} overeenstemt met de *Web Content Accessibility Guidelines (WCAG)* van het W3C. Na de achtergrondinformatie en afbakening van de test worden beoordelaars, beoordelingsproces en testresulltaten beschreven. 
+Dit rapport beschrijft in hoeverre de website OBA agendapagina overeenstemt met de *Web Content Accessibility Guidelines (WCAG)* van het W3C. Na de achtergrondinformatie en afbakening van de test worden beoordelaars, beoordelingsproces en testresulltaten beschreven. 
 
-Conslusie van deze test luidt dat de {Frontend Design & Development} website {niet voldoet/ voldoet/ dichtbij voldoen is aan} de WCAG 2.1, op niveau {A/ AA/ AAA}. Gedetailleerde resultaten en aanbevelingen zijn verderop in dit document beschikbaar en in de referenties vindt u bronnen voor eventuele vervolgstudie. Wij stellen feedback op deze evaluatie zeer op prijs.
+Conclusie van deze test luidt dat de Openbare Bibliotheek Amsterdam website dichtbij voldoet aan de WCAG 2.1, op niveau AA. Gedetailleerde resultaten en aanbevelingen zijn verderop in dit document beschikbaar en in de referenties vindt u bronnen voor eventuele vervolgstudie. Wij stellen feedback op deze evaluatie zeer op prijs.
 
 ## Achtergrond bij de evaluatie
 
-De webtoegankelijkheid-test vereist een combinatie van semi-geautomatiseerde en handmatig uitgevoerde evaluatie tools door een ervaren beoordelaar. De beoordelingsresultaten in dit rapport zijn gebaseerd op een beoordeling welke is uitgevoerd op {datum}. De website kan ondertussen aangepast zijn.
+De webtoegankelijkheid-test vereist een combinatie van semi-geautomatiseerde en handmatig uitgevoerde evaluatie tools door een ervaren beoordelaar. De beoordelingsresultaten in dit rapport zijn gebaseerd op een beoordeling welke is uitgevoerd op 3-11-2021. De website kan ondertussen aangepast zijn.
 
 ## Afbakening
 
-{Naam van de website}
+OBA agendapagina
 
-{en doel van de website, wanneer relevant}
+Informatie om deel te nemen aan de informatie samenleving zo laagdrempelig te maken als mogelijk is.
 
-{Base URL van de website}
+https://www.oba.nl/agenda.html
 
-{Lijst met URLs die in de beoordeling meegenomen zijn}
+De agenda pagina is zowel handmatig beoordeeld als met semi-geautomatiseerde tools.
 
-{Als de website dynamisch is, screenshots van hetgeen beoordeeld is}
+03/11/2021
 
-{Indicatie van pagina’s die handmatig beoordeeld zijn ten opzichte van semi-geautomatiseerde tools}
+HTML, CSS en javascript
 
-{URLs die niet beoordeeld zijn}
-
-{Exacte datum, of reeks van data waarop beoordeling heeft plaatsgevonden}
-
-{Natuurlijke taal/talen van de website}
 
 ## Beoordelaars
 
